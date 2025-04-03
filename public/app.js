@@ -17,7 +17,7 @@ resgist.addEventListener("click", function (event) {
     console.log(name.value, lastname.value, mail.value, contrasen.value)
 
     if (name.value.toLowerCase() == nombre && lastname.value.toLowerCase() == apellido && mail.value == correo && contrasen.value == contrasena) {
-        window.open("admin.html","_self","")
+        window.open("admin","_self","")
     }else{
         window.alert("datos incorrectos");
          document.getElementById("nombres").value=""
